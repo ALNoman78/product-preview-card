@@ -1,0 +1,31 @@
+@media screen and (max-width : 576px) {
+    .none {
+        display: block;
+
+    }
+
+    .none-2 {
+        display: none;
+    }
+
+    main {
+        width: 95%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+        border-radius: 14px;
+    }
+
+    .primary-btn {
+        margin-bottom: 24px;
+    }
+
+    .content img {
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        border-bottom-left-radius: 0;
+    }
+}
